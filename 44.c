@@ -12,5 +12,5 @@ void main()
     {
         sum += (double)(2*i - 1) / (2*i);
     }
-    printf("Sum of series up to %d terms = %.6f\n", n, sum);
+    printf("Approximate sum = %.6f\n", sum);
 }
